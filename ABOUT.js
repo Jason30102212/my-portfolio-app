@@ -34,10 +34,12 @@
 //  Product Backlog (Prioratised list of features)
 //  - 2/6/2019:
 //    -- COMPLETED: Get app online. Priority 1.
-//    -- Top navigation bar component. Priority 2.
-//    -- Header introduction display component(Landing). Priority Priority 2.
-//    -- Footer. Priority 2.
-//    -- Current project display. Priority 3.
+//    -- COMPLETED: Top navigation bar component. Priority 2.
+//    -- COMPLETED: Header introduction display component(Landing). Priority Priority 2.
+//    -- COMPLETED: Footer. Priority 2.
+
+
+//    --Current project display. Priority 3.
 //    - Skillset. Priority 3.
 //    - About. Priority 3.
 //    - Completed Projects. Priority 4.
@@ -49,43 +51,49 @@
 //    - Style top navigation bar component based on chosen theme. Priority 5.
 //    - Style header introduction display component(Landing) based on chosen theme. Priority Priority 5.
 //    - Style footer based on chosen theme. Priority 5.
+//    -
 
 
 //  User stories (As a ___, I need___, So that___)
 //    - 2/6/2019
 //      - COMPLETED: Get app online. Priority 1.
 //        - As a site visitor, i need to be able to access this site from the internet, so that i can view its content
-//      - Top navigation bar component. Priority 2.
+//      - COMPLETED: Top navigation bar component. Priority 2.
 //        - As a site visitor, i need to be able to navigate the website, so that I can find the content I am looking for.
-//      - Header introduction display component(Landing). Priority Priority 2.
+//      - COMPLETED: Header introduction display component(Landing). Priority Priority 2.
 //        - As a site visitor, i need to have some context as to what this site is about and what it contains, so that i can decide if i want to continue.
-//    - Footer. Priority 2.
+//      - COMPLETED:Footer. Priority 2.
 //        - As a site visitor, i need to know where the page ends and my options to continue are, so that i can decide my next action.
-//    - Current project display. Priority 3.
+//      - COMPLETED:Current project display. Priority 3.
 //        - As a site visitor, i need to be able to see a list of current projects that the creator is working on, so i can decide if i want to view their progress.
-//    - Skillset. Priority 3.
+//      - COMPLETED:Skillset. Priority 3.
 //        - As a site visitor, i need to be able to view the creators current skillset, so that i can decide if they meet the hireablility criteria.
-//    - About. Priority 3.
+//      - COMPLETED:About. Priority 3.
 //        - As a site visitor, i need to see details about the creator, so that i can determine if i wish to continue on the site.
-//    - Completed Projects. Priority 4.
+//      - COMPLETED:Completed Projects. Priority 4.
 //        - As a site visitor, i need to see a list of completed projects, so that i can decide if they meet the hireablility criteria.
-//    - About this site. Priority 4.
+//      - COMPLETED:About this site. Priority 4.
 //        - As a site visitor, i need to know how this site was built, so i can decide on the hireablility of the creator.
-//    - Github code. Priority 4.
+//      - COMPLETED:Github code. Priority 4.
 //        - As a site visitor, i need to be able to view the github content created by the creator, so that i can determine their hireablility.
-//     - Determine a theme for the site. Priority 4.
+//
+// 
+//      - Determine a theme for the site. Priority 4.
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
-//    - Autoscroll Functionality. Priority 5.
+//      - Autoscroll Functionality. Priority 5.
 //        - As a site visitor, i would like to be able to access content in a more stylish manner, so i have a good UX experience
-//    - Add custom url. Priority 5.
+//      - Add custom url. Priority 5.
 //        - As a site visitor, i need to be able to easily identify to get to the site, so i can access it
-//    - Style top navigation bar component based on chosen theme. Priority 5.
+//      - Style top navigation bar component based on chosen theme. Priority 5.
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
-//    - Style header introduction display component(Landing) based on chosen theme. Priority Priority 5.
+//      - Style header introduction display component(Landing) based on chosen theme. Priority Priority 5.
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
-//    - Style footer based on chosen theme. Priority 5.
+//      - Style footer based on chosen theme. Priority 5.
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
-
+//      - Will need to update <Header> to correct height of 100% and relavent content
+//        - As a site visitor, i need the jumbotron to display the correct information, in order to decide if i want to continue on the site
+//      - Will need to update content of all three created components
+//        - As a site visitor, i need the components to display the correct information, in order to decide if i want to continue on the site
 
 
 //    - Completed Projects. Priority 4.
@@ -97,6 +105,61 @@
 //  Daily Scrum
 //  Sprint review
 
+
+
+// --------------=
+
+// SPRINT LOG
+//  - 2/7/2019 Second Spring
+//    - Plan
+//      - 2/7/2019
+//        - Preparation:
+//
+//        - Current project display. Priority 3.
+//          - Create <CurrentProjects> component
+//            - Bootstrap rows should be used to ensure padding left and right
+//            - Add heading to the component
+//            - Should display 3 projects per row
+//            - Card class should be used to display projects
+//        - Skillset. Priority 3.
+//          - Create <Skillset> component
+//            - Add heading to the component
+//            - Should display 4 skills per row
+//            - Card class should be used to display skills
+//        - Completed Projects. Priority 4.
+//          - Create <CompletedProjects> component
+//            - Add heading to the component
+//            - Should display 3 projects per row
+//            - Card class should be used to display projects
+//        - About this site. Priority 4.
+//          - Create <About> component
+//            - Add heading to the component
+//            - Paragraphs to display information.
+//        - Github code. Priority 4.
+//          - Create <Github> component
+//          - Link to github content
+//          - Display of repositories may be added
+//    - Build
+//      - 2/7/2019
+//        - <CurrentProjects> component created
+//        - <CompletedProjects> component created
+//        - <Skillset> component created
+//        - <AboutThisSite> component created
+//        - <AboutCreator> component created (Not specified in plan)
+//        - Created css to style all components (Components.css)
+//    - Test
+//      - 2/7/2019
+//        -Mobile Functionality working
+//        -Created css working
+//
+//    - Review
+//      - 2/7/2019
+//        -All component created successfully
+//        -Added <AboutCreator> component which wasnt specified in the plan, but would be required
+//        -All created components in this sprint will require proper content, as placeholder content is currently used
+//        -
+
+// -------------
 
 // SPRINT LOG
 //  - 2/7/2019 Second Spring
@@ -138,11 +201,13 @@
 //          - Created <Footer> component
 //          - <Navbar>, <Header> and <Footer> all added to app.js
 //    - Test
+//        - 2/7/2019
 //          - <Navbar>, <Header> and <Footer> all displaying
 //          - Navbar links working, but currently inactive
 //          - Jumbotron working, but not extending the whole screen hight wise
 //          - Footer not sticking to bottom, but will be pushed down with future contents/ components
 //    - Review
+//        - 2/7/2019
 //          - Will need to update <Header> to correct height of 100%
 //          - Will need to update content of all three created components
 
@@ -164,3 +229,18 @@
 //    - Review
 //      - 2/6/2019
 //        -While the app is up and running on heroku, the url will need to be changed to a custom one
+
+
+
+
+
+
+
+// SPRINT LOG
+//  - 2/7/2019 Second Spring
+//    - Plan
+//      - 2/7/2019
+//        - Preparation:
+//    - Build
+//    - Test
+//    - Review
