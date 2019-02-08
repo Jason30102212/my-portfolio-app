@@ -10,6 +10,8 @@ import CompletedProjects from './Component/CompletedProjects';
 import GitHub from './Component/GitHub';
 import AboutThisSite from './Component/AboutThisSite';
 import AboutCreator from './Component/AboutCreator';
+import TestStyle from './Component/TestStyle';
+
 
 class App extends Component {
   render() {
@@ -23,6 +25,7 @@ class App extends Component {
         <GitHub />
         <AboutThisSite />
         <AboutCreator />
+        <TestStyle />
         <Footer />
       </div>
     );

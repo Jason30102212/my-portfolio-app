@@ -76,10 +76,9 @@
 //        - As a site visitor, i need to know how this site was built, so i can decide on the hireablility of the creator.
 //      - COMPLETED:Github code. Priority 4.
 //        - As a site visitor, i need to be able to view the github content created by the creator, so that i can determine their hireablility.
-//
-// 
-//      - Determine a theme for the site. Priority 4.
+//      - Complete:Determine a theme for the site. Priority 4.
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
+//
 //      - Autoscroll Functionality. Priority 5.
 //        - As a site visitor, i would like to be able to access content in a more stylish manner, so i have a good UX experience
 //      - Add custom url. Priority 5.
@@ -90,11 +89,12 @@
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
 //      - Style footer based on chosen theme. Priority 5.
 //        - As a site visitor, i would like the site to look good, so i can enjoy the user experience more.
-//      - Will need to update <Header> to correct height of 100% and relavent content
+//      - Will need to update <Header> to correct height of 100% and relavent content. Priority 5.
 //        - As a site visitor, i need the jumbotron to display the correct information, in order to decide if i want to continue on the site
-//      - Will need to update content of all three created components
+//      - Will need to update content of all three created components. Priority 5
 //        - As a site visitor, i need the components to display the correct information, in order to decide if i want to continue on the site
-
+//      - Will need to update the content of the <AboutContent>, <AboutCreator>, <CompletedProjects>, <CurrentProjects>, <Github> and <SkillSet> components
+//        - As a site visitor, i need to be able to view information, in order to determine if i want to continue on the site
 
 //    - Completed Projects. Priority 4.
 //        - As a site visitor, I
@@ -105,6 +105,45 @@
 //  Daily Scrum
 //  Sprint review
 
+
+
+// ------------
+
+// // SPRINT LOG
+//  - 2/7/2019 Third Sprint
+//    - Plan
+//      - 2/7/2019
+//        - Preparation:
+//          - Gather ideas from other portfolio sites
+//            - Created styleIdeas folder and styleIdeas.js file
+//            - font
+//            - logos and icons
+//            - colour pallete
+//            - Look into font awesome
+//            - Look into google open source fonts
+//        - Determine a theme for the site. Priority 4.
+//          - Gather fonts for Headers, paragraphs
+//          - Gather logos and icons (Font Awesome)
+//          - Generate colour Palette
+//          - Implement google fonts
+//          - Implement Font Awesome
+//          - Create a test component for styles
+//    - Build
+//      - 2/8/2019
+//        - Gatherered ideas for font, palette, logos and icons and stored in styleIdeas
+//        - Created palette and stored in styleIdeas
+//        - Installed Functionality for logos and icons (Font Awesome)
+//        - Installed Functionality for fonts (Google Fonts)
+//        - Created <TestStyle> component
+//    - Test
+//      - 2/8/2019
+//        - Font awesome working
+//        - Google fonts working
+//        - <TestStyle> working
+//    - Review
+//      - 2/8/2019
+//        - There are now enough assets to use in order to start adding content and information
+//        - More assets may need to added in the future
 
 
 // --------------=
@@ -161,8 +200,9 @@
 
 // -------------
 
+
 // SPRINT LOG
-//  - 2/7/2019 Second Spring
+//  - 2/7/2019 Second Sprint
 //    - Plan
 //      - 2/7/2019
 //        - Preparation:

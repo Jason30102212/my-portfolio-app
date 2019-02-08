@@ -1,0 +1,62 @@
+.icon-lg {
+  font-size: 100px;
+}
+
+.palette-color {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+}
+
+.palette-color-0A5685 {
+  background-color: #0A5685;
+}
+
+.palette-color-147E7E {
+  background-color: #147E7E;
+}
+
+.palette-color-FBFBFB {
+  background-color: #FBFBFB;
+}
+
+.palette-color-040505 {
+  background-color: #040505;
+}
+
+.palette-color-55789E {
+  background-color: #55789E;
+}
+
+.fahkwang-font {
+  font-family: 'Fahkwang', sans-serif;
+}
+
+.gloria-hallelujah-font {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.indie-flower-font {
+  font-family: 'Indie Flower', cursive;
+}
+
+.ubuntu-font {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.test-div {
+
+}
+
+.inverse-style-h1 {
+  color: #FBFBFB;
+}
+
+.inverse-style-icon {
+  color: #FBFBFB;
+}
+
+.test-div-background {
+  height: 1000px;
+  background-image: url("../images/background-color.jpg");
+}
