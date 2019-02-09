@@ -8,11 +8,12 @@ class AboutCreator extends Component {
         <div className="container completed-projects-container  ">
           <div className="row">
             <div className="col-md-12">
-              <div className="h1-div-margin">
-                <h1>About Creator Component</h1>
+              <div className="h1-div-margin fahkwang-font">
+                <h1 className="text-uppercase">About Creator</h1>
               </div>
+              <hr className="my-4 text-white" />
               <div className="p-div-margin">
-                <p>This is a paragraph</p>
+                <p className="fahkwang-font">I have a strong interest in technology and software, with a focus on BlockChain technology</p>
               </div>
             </div>
           </div>

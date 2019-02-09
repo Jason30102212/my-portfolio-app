@@ -9,10 +9,14 @@ class GitHub extends Component {
           <div className="row">
             <div className="col-md-12">
               <div className="h1-div-margin">
-                <h1>Github Component</h1>
+                <i class="fab fa-github icon-lg" />
+                <div className="fahkwang-font">
+                  <h1 className="text-uppercase">GitHub</h1>
+                </div>
+                <hr className="my-4 text-white" />
               </div>
               <div className="p-div-margin">
-                <p>This is a paragraph</p>
+                <h3 className="ubuntu-font">View my GitHub Repos at <a href="https://github.com/Jason30102212">github.com/Jason30102212</a></h3>
               </div>
             </div>
           </div>

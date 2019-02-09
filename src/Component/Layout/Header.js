@@ -5,13 +5,14 @@ class Header extends Component {
   render () {
     return (
       <div className="header">
-        <div class="jumbotron">
-          <h1 class="display-4">Hello, world!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-          <hr class="my-4" />
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <div class="jumbotron jumbotron-background">
+          <div className="jumbotron-padding">
+          </div>
+          <h1 className="display-4 fahkwang-font text-white text-uppercase text-spread-20">Jason's Portfolio</h1>
+          <hr className="my-4 text-white" />
+          <p className="gloria-hallelujah-font text-white">Thanks for visiting. This is a showcase of the projects I am working on and the skills I am obtaining.</p>
+          <p className="lead">
+            <a className="btn btn-primary btn-lg m-5" href="#" role="button">Learn more</a>
           </p>
         </div>
       </div>

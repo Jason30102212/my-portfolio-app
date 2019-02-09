@@ -8,11 +8,14 @@ class AboutThisSite extends Component {
         <div className="container completed-projects-container  ">
           <div className="row">
             <div className="col-md-12">
-              <div className="h1-div-margin">
-                <h1>About This Site Component</h1>
+              <div className="h1-div-margin fahkwang-font">
+                <h1 className="text-uppercase">About This Site</h1>
               </div>
+              <hr className="my-4 text-white" />
               <div className="p-div-margin">
-                <p>This is a paragraph</p>
+                <p className="fahkwang-font">This site is built from scratch using the React framework.</p>
+                <p className="fahkwang-font">Languages used were Javascript/Jquery/JSX, HTML, CSS/Bootstrap.</p>
+                <p className="fahkwang-font">GIT/GitHub were used for version control and Heroku hosts the app.</p>
               </div>
             </div>
           </div>

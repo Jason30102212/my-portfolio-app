@@ -12,13 +12,42 @@
 }
 
 .completed-projects-component {
-  background-color: #e9ecef;
+  background-color: #a0b0c1;
 }
 
 .github-component {
-  background-color: #e9ecef;
+  background-color: #a0b0c1;
 }
 
 .about-creator-component {
-  background-color: #e9ecef;
+  background-color: #a0b0c1;
+}
+
+.min-card-height {
+  height: 200px; /*or 70%, or what you want*/
+  background-size: cover;
+  background-position: center;
+}
+
+.card-text-height {
+  height: 200px;
+}
+
+.color-card {
+  background-color: #a0b0c1;
+}
+
+.icon-md {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.skills-text {
+  height: 150px;
 }
