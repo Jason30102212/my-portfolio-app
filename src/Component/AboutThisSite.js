@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class AboutThisSite extends Component {
 
   render (){
     return(
       <div className="about-this-site-component component">
+      <ScrollableAnchor id={'about-section'}>
         <div className="container completed-projects-container  ">
           <div className="row">
             <div className="col-md-12">
@@ -20,6 +22,7 @@ class AboutThisSite extends Component {
             </div>
           </div>
         </div>
+      </ScrollableAnchor>
       </div>
     )
   }

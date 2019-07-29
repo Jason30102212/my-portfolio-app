@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class SkillSet extends Component {
 
   render() {
     return (
       <div className="skill-set-component component">
+        <ScrollableAnchor id={'skillset-section'}>
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -18,7 +20,7 @@ class SkillSet extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 btm-margin">
               <div className="card color-card">
                 <i class="fas fa-code icon-code icon-md" />
                 <div className="card-body">
@@ -36,7 +38,7 @@ class SkillSet extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 btm-margin">
               <div className="card color-card">
                 <i class="fas fa-link icon-md" />
                 <div className="card-body">
@@ -48,7 +50,7 @@ class SkillSet extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 btm-margin">
               <div className="card color-card">
                 <i class="fas fa-cogs icon-md" />
                 <div className="card-body">
@@ -60,7 +62,7 @@ class SkillSet extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 btm-margin">
               <div className="card color-card">
                 <i class="fas fa-robot icon-md" />
                 <div className="card-body">
@@ -74,6 +76,7 @@ class SkillSet extends Component {
             </div>
           </div>
         </div>
+        </ScrollableAnchor>
       </div>
     )
   }

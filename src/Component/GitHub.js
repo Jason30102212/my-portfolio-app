@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
+
 
 class GitHub extends Component {
 
   render (){
     return (
       <div className="github-component component">
+      <ScrollableAnchor id={'github-section'}>
         <div className="container completed-projects-container  ">
           <div className="row">
             <div className="col-md-12">
@@ -21,6 +24,7 @@ class GitHub extends Component {
             </div>
           </div>
         </div>
+      </ScrollableAnchor>
       </div>
     )
   }

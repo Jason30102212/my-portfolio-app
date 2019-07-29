@@ -20,11 +20,10 @@ class App extends Component {
         <Navbar />
         <Header />
         <CurrentProjects />
-        <CompletedProjects />
-        <SkillSet />
         <GitHub />
-        <AboutThisSite />
+        <SkillSet />
         <AboutCreator />
+        <AboutThisSite />
         <Footer />
       </div>
     );

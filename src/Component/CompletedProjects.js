@@ -20,19 +20,21 @@ class CompletedProjects extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-6 col-lg-4 btm-margin">
               <div className="card">
-                <img className="card-img-top min-card-height" src={require('../images/portfolio-site-image.jpg')} alt="Card image cap" />
+                <div>
+                  <img className="card-img-top min-card-height p-3 auto-width" src={require('../images/pythonLogo.png')} alt="Card image cap" />
+                </div>
                 <div className="card-body">
-                  <h5 className="card-title text-uppercase ubuntu-font">Portfolio Site</h5>
+                  <h5 className="card-title text-uppercase ubuntu-font">Basic Python Tutorial</h5>
                   <div className="card-text-height">
-                    <p className="card-text ubuntu-font">The site you are currently on. It uses the React framework and is a single page application.</p>
+                    <p className="card-text ubuntu-font">A refresher tutorial on the basics of Python. </p>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="https://github.com/Jason30102212/python_basics_refresher" class="btn btn-primary">Repo</a>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-6 col-lg-4 btm-margin">
               <div className="card">
                 <img className="card-img-top min-card-height" src={require('../images/knowledgebase-site-image.jpg')} alt="Card image cap" />
                 <div className="card-body">
@@ -44,7 +46,7 @@ class CompletedProjects extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-6 col-lg-4 btm-margin">
               <div className="card">
                 <img className="card-img-top min-card-height" src="..." alt="Card image cap" />
                 <div className="card-body">

@@ -12,7 +12,7 @@ class Header extends Component {
           <hr className="my-4 text-white" />
           <p className="gloria-hallelujah-font text-white">Thanks for visiting. This is a showcase of the projects I am working on and the skills I am obtaining.</p>
           <p className="lead">
-            <a className="btn btn-primary btn-lg m-5" href="#" role="button">Learn more</a>
+            <a className="btn btn-primary btn-lg m-5" href="#about-section" role="button">Learn more</a>
           </p>
         </div>
       </div>

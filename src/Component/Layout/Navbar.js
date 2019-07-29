@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import './LayoutStyle.css';
 import '../../fonts/Fonts.css'
+
+
 
 class Navbar extends Component {
   render () {
@@ -25,22 +28,22 @@ class Navbar extends Component {
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a class="nav-link ubuntu-font link-style" href="#">Home</a>
+                <a class="nav-link ubuntu-font link-style" href="#section1">Home</a>
               </li>
               <li className="nav-item">
-                <a class="nav-link ubuntu-font link-style" href="#">Projects</a>
+                <a class="nav-link ubuntu-font link-style" href="#project-section">Projects</a>
               </li>
               <li className="nav-item">
-                <a class="nav-link ubuntu-font link-style" href="#">Skillset</a>
+                <a class="nav-link ubuntu-font link-style" href="#skillset-section">Skillset</a>
               </li>
               <li className="nav-item">
-                <a class="nav-link ubuntu-font link-style" href="#">Github</a>
+                <a class="nav-link ubuntu-font link-style" href="#github-section">Github</a>
               </li>
               <li className="nav-item">
-                <a class="nav-link ubuntu-font link-style" href="#">About</a>
+                <a class="nav-link ubuntu-font link-style" href="#about-section">About</a>
               </li>
               <li className="nav-item">
-                <a class="nav-link ubuntu-font link-style" href="#">Contacts</a>
+                <a class="nav-link ubuntu-font link-style" href="#contacts-section">Contacts</a>
               </li>
             </ul>
           </div>

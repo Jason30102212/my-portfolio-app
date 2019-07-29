@@ -30,3 +30,20 @@
     transform: rotate(360deg);
   }
 }
+
+.bullet-style-none {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.buller-style-none ul {
+  padding: 0px;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-bold {
+  font-weight: bold;
+}
