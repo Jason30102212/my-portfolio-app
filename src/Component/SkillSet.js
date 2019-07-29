@@ -34,7 +34,6 @@ class SkillSet extends Component {
                       <li>C++</li>
                     </ul>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -46,7 +45,6 @@ class SkillSet extends Component {
                   <div className="skills-text">
                     <p className="card-text">Currently focusing on the EOS blockchain smart contracts.</p>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -58,7 +56,6 @@ class SkillSet extends Component {
                   <div className="skills-text">
                     <p className="card-text">Basic Machine Learning and Artificial Intelligence concepts. Mostly using python libraries, but also c++.</p>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -70,7 +67,6 @@ class SkillSet extends Component {
                   <div className="skills-text">
                     <p className="card-text">Interested in automation and IOT concepts. Arduino, micro-controllers, interaction between software etc. .</p>
                   </div>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>

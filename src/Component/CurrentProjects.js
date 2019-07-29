@@ -34,7 +34,8 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">A project management platform for tokenizing projects and to facilitate the creation of decentralized autonomous organizations (DAO's).</p>
                   </div>
-                  <a href="https://github.com/Jason30102212/eos-colab" class="btn btn-primary">Repo</a>
+                  <span><a href="https://secret-shore-36900.herokuapp.com/interface" target="_blank" class="btn btn-primary">Live Demo</a> </span>
+                  <span><a href="https://github.com/Jason30102212/eos-colab" target="_blank" class="btn btn-primary">Repo</a></span>
                 </div>
               </div>
             </div>
@@ -48,7 +49,8 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">A base site for a decentralized autonomous organisation that will focus on the creation and development of EOS Colab and EOS Work</p>
                   </div>
-                  <a href="https://github.com/Jason30102212/eos-transition" class="btn btn-primary">Repo</a>
+                  <span><a href="https://eos-transition.herokuapp.com/" target="_blank" class="btn btn-primary">Live Demo</a> </span>
+                  <span><a href="https://github.com/Jason30102212/eos-transition" target="_blank" class="btn btn-primary">Repo</a></span>
                 </div>
               </div>
             </div>
@@ -62,7 +64,8 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">A platform for connection between people looking for work and those in need of services. Cryptocurrency is used to facilitate transactions.</p>
                   </div>
-                  <a href="https://github.com/Jason30102212/eos-work" class="btn btn-primary">Repo</a>
+                  <span><a href="https://eos-work.herokuapp.com" target="_blank" class="btn btn-primary">Live Demo</a> </span>
+                  <span><a href="https://github.com/Jason30102212/eos-work" target="_blank" class="btn btn-primary">Repo</a></span>
                 </div>
               </div>
             </div>
@@ -77,7 +80,7 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">The site you are currently viewing. It uses the React framework and is a single page application.</p>
                   </div>
-                  <a href="https://github.com/Jason30102212/my-portfolio-app" class="btn btn-primary">Repo</a>
+                  <a href="https://github.com/Jason30102212/my-portfolio-app" target="_blank" class="btn btn-primary">Repo</a>
                 </div>
               </div>
             </div>
@@ -89,7 +92,7 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">This app will be used to document what I have learned. It is a React app that uses Redux to control state. It also uses MongoDB. It has user login functionality and will be updatable by forms on the site.</p>
                   </div>
-                  <a href="" class="btn btn-primary">Repo</a>
+                  <a href="" target="_blank" class="btn btn-primary">Repo</a>
                 </div>
               </div>
             </div>
@@ -101,7 +104,7 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">This React app requests Cryptocurrency data from a REST API and display, tailored to user input. </p>
                   </div>
-                  <a href="https://github.com/Jason30102212/state-of-crypto" class="btn btn-primary">Repo</a>
+                  <a href="https://github.com/Jason30102212/state-of-crypto" target="_blank" class="btn btn-primary">Repo</a>
                 </div>
               </div>
             </div>

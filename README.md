@@ -49,13 +49,20 @@ Product Backlog (Prioritized list of features)
  - COMPLETED: Style header introduction display component(Landing) based on chosen theme. Priority 5.
  - COMPLETED: Style footer based on chosen theme. Priority 5.
 
- - Complete MVP of KnowledgeBase. Priority 1.
 
- - Expand upon eos colab project. Priority 1.
- - Expand upon eos transition project. Priority 1.
- - Expand upon eos work project. Priority 1.
+ - COMPLETED: Add links to live examples. Priority 1
+ - COMPLETED: Remove go somewhere buttons. Priority 1.
 
- - Create a <Goals /> component. Priority 2.
+ - Push knowledgebase to GitHub and fix link. Priority 1.
+
+ - Complete MVP of KnowledgeBase. Priority 2.
+
+ - Expand upon eos colab project. Priority 2.
+ - Expand upon eos transition project. Priority 2.
+ - Expand upon eos work project. Priority 2.
+ - Menu always up top. Priority 3.
+
+ - Create a <Goals /> component. Priority 3.
 
  - Update projects (Completed and Current). Priority 4.
  - Ensure mobile functionality. Priority 4.
@@ -66,6 +73,7 @@ Product Backlog (Prioritized list of features)
  - <TodayIDid> Component that shows what was achieved today Priority 10.
 
 
+\
 
    - Review Logo. Priority 6.
    - Reformat navbar Links. Priority 6.
@@ -133,9 +141,27 @@ Sprint review
 
 ------------
 
+SPRINT LOG
+- 30/7/2019 eighth
+  - Plan
+    - 30/7/2019
+      - Preparation:
+  - Build
+    - Fix knowledgebase link. Priority 1.
+    - Add links to live examples. Priority 1
+    - Remove go somewhere buttons. Priority 1.
+  - Test
+    - All links work and open in new tab, except for knowledgebase link
+    - go somewhere buttons removed
+  - Review
+    - Must push knowledgebase to GitHub
+
+
+
+--------------
 
 SPRINT LOG
-- 2/12/2019 Second Sprint
+- 12/2/2019 seventh Sprint
  - Plan
    - 2/12/2019
      - Preparation:

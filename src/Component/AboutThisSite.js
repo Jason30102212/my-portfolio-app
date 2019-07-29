@@ -15,7 +15,7 @@ class AboutThisSite extends Component {
               </div>
               <hr className="my-4 text-white" />
               <div className="p-div-margin">
-                <p className="fahkwang-font">This site is built from scratch using the React framework.</p>
+                <p className="fahkwang-font">This site is built with create-react-app using the React framework.</p>
                 <p className="fahkwang-font">Languages used were Javascript/Jquery/JSX, HTML, CSS/Bootstrap.</p>
                 <p className="fahkwang-font">GIT/GitHub were used for version control and Heroku hosts the app.</p>
               </div>
