@@ -87,7 +87,7 @@ class CurrentProjects extends Component {
                 <div className="card-body">
                   <h5 className="card-title text-uppercase ubuntu-font">Knowledgebase</h5>
                   <div className="card-text-height">
-                    <p className="card-text ubuntu-font">This app will be used to document what I have learned. It is a React app that uses Redux to control state. It also uses MongoDB. It has user login functionality and will be updatable by forms on the site..</p>
+                    <p className="card-text ubuntu-font">This app will be used to document what I have learned. It is a React app that uses Redux to control state. It also uses MongoDB. It has user login functionality and will be updatable by forms on the site.</p>
                   </div>
                   <a href="" class="btn btn-primary">Repo</a>
                 </div>
@@ -108,7 +108,6 @@ class CurrentProjects extends Component {
           </div>
         </div>
         </ScrollableAnchor>
-
       </div>
     )
   }

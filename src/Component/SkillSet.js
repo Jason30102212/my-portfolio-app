@@ -56,7 +56,7 @@ class SkillSet extends Component {
                 <div className="card-body">
                   <h5 className="card-title">Machine Learning</h5>
                   <div className="skills-text">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">Basic Machine Learning and Artificial Intelligence concepts. Mostly using python libraries, but also c++.</p>
                   </div>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
@@ -66,9 +66,9 @@ class SkillSet extends Component {
               <div className="card color-card">
                 <i class="fas fa-robot icon-md" />
                 <div className="card-body">
-                  <h5 className="card-title">Robotics</h5>
+                  <h5 className="card-title">Hardware and Robotics</h5>
                   <div className="skills-text">
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">Interested in automation and IOT concepts. Arduino, micro-controllers, interaction between software etc. .</p>
                   </div>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
