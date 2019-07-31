@@ -34,7 +34,7 @@ class CurrentProjects extends Component {
                   <div className="card-text-height">
                     <p className="card-text ubuntu-font">A project management platform for tokenizing projects and to facilitate the creation of decentralized autonomous organizations (DAO's).</p>
                   </div>
-                  <span><a href="https://secret-shore-36900.herokuapp.com/interface" target="_blank" class="btn btn-primary">Live Demo</a> </span>
+                  <span><a href="https://secret-shore-36900.herokuapp.com" target="_blank" class="btn btn-primary">Live Demo</a> </span>
                   <span><a href="https://github.com/Jason30102212/eos-colab" target="_blank" class="btn btn-primary">Repo</a></span>
                 </div>
               </div>
