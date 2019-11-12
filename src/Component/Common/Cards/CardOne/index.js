@@ -8,7 +8,7 @@ class CardOne extends Component {
   render() {
     return(
       <div class="card">
-        <div class="card__side card__side--front card__side--front">
+        <div class="card__side card__side--front">
           <div class={`card__picture card__picture--${this.props.image}`}>
             &nbsp;
           </div>
@@ -68,7 +68,7 @@ class CardOne extends Component {
                 ''
                }
             </div>
-            <a href="#popup" class="btn btn--white">{this.props.buttonText}</a>
+            <a href={this.props.link} target="_blank" class="btn btn--white">{this.props.buttonText}</a>
           </div>
         </div>
       </div>

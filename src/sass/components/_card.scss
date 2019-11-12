@@ -24,19 +24,19 @@
     }
 
     &--back {
-      background-color: $color-white;
+      background-color: grey;
       transform: rotateY(180deg);
 
       &-secondary {
-        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+        background-image: linear-gradient(to right bottom, white, white);
       }
 
       &-primary {
-        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+        background-image: linear-gradient(to right bottom, white, white);
       }
 
       &-tertiary {
-        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+        background-image: linear-gradient(to right bottom, white, white);
       }
 
     }
@@ -62,17 +62,17 @@
 
 
     &--real-estate {
-      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+      background-image:
       url(../images/sites/real-estate.JPG);
     }
 
-    &--digital-agency-site{
-      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-      url(../images/eosLogo.png);
+    &--digital-agency{
+      background-image:
+      url(../images/sites/digital-agency.JPG);
     }
 
     &--gym-site {
-      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
+      background-image:
       url(../images/sites/gym-site.JPG);
     }
   }
@@ -96,20 +96,20 @@
 
     &--secondary {
       background-image: linear-gradient(to right bottom,
-      rgba($color-secondary-light, .85),
-      rgba($color-secondary-dark, .85));
+      rgba(grey, .85),
+      rgba(black, .85));
     }
 
     &--primary {
       background-image: linear-gradient(to right bottom,
-      rgba($color-primary-light, .85),
-      rgba($color-primary-dark, .85));
+      rgba(grey, .85),
+      rgba(black, .85));
     }
 
     &--tertiary {
       background-image: linear-gradient(to right bottom,
-      rgba($color-tertiary-light, .85),
-      rgba($color-tertiary-dark, .85));
+      rgba(grey, .85),
+      rgba(black, .85));
     }
   }
 
@@ -151,6 +151,7 @@
 
   &__price-only {
     font-size: 1.4rem;
+    color: grey;
     text-align: uppercase;
   }
 
@@ -168,13 +169,19 @@
     border-bottom-right-radius: 3px;
 
     &--real-estate {
-      height: 23rem;
+      height: 20rem;
       background-image:
       url(../images/sites/real-estate.JPG);
     }
 
+    &--digital-agency {
+      height: 20rem;
+      background-image:
+      url(../images/sites/digital-agency.JPG);
+    }
+
     &--gym-site {
-      height: 14rem;
+      height: 20rem;
       background-image:
       url(../images/sites/gym-site.JPG);
     }

@@ -28,19 +28,21 @@ class Projects extends Component {
               rearLarge=""
               rearSmallTwo=""
               buttonText="Go to site"
+              link="https://real-estate-site.herokuapp.com/"
             />
           </div>
           <div className="col-1-of-3">
             <CardOne
               heading="Digital Agency"
               color="primary"
-              image="gym-site"
+              image="digital-agency"
               item1="React"
               item2="CSS Animations"
               rearSmallOne="A site for a digital agency"
               rearLarge=""
               rearSmallTwo=""
               buttonText="Go to site"
+              link="https://digital-agency-one.herokuapp.com/"
             />
           </div>
           <div className="col-1-of-3">
@@ -54,6 +56,7 @@ class Projects extends Component {
               rearLarge=""
               rearSmallTwo=""
               buttonText="Go to site"
+              link="https://gym-site-one.herokuapp.com/"
             />
           </div>
         </div>

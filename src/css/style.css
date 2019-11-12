@@ -352,14 +352,14 @@ body {
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
-      background-color: #fff;
+      background-color: grey;
       transform: rotateY(180deg); }
       .card__side--back-secondary {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, white, white); }
       .card__side--back-primary {
-        background-image: linear-gradient(to right bottom, #7469e0, #120871); }
+        background-image: linear-gradient(to right bottom, white, white); }
       .card__side--back-tertiary {
-        background-image: linear-gradient(to right bottom, #2998ff, #6543fa); }
+        background-image: linear-gradient(to right bottom, white, white); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -373,11 +373,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--real-estate {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../images/sites/real-estate.JPG); }
-    .card__picture--digital-agency-site {
-      background-image: linear-gradient(to right bottom, #7469e0, #120871), url(../images/eosLogo.png); }
+      background-image: url(../images/sites/real-estate.JPG); }
+    .card__picture--digital-agency {
+      background-image: url(../images/sites/digital-agency.JPG); }
     .card__picture--gym-site {
-      background-image: linear-gradient(to right bottom, #2998ff, #6543fa), url(../images/sites/gym-site.JPG); }
+      background-image: url(../images/sites/gym-site.JPG); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -393,11 +393,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--secondary {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.85), rgba(0, 0, 0, 0.85)); }
     .card__heading-span--primary {
-      background-image: linear-gradient(to right bottom, rgba(116, 105, 224, 0.85), rgba(18, 8, 113, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.85), rgba(0, 0, 0, 0.85)); }
     .card__heading-span--tertiary {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(101, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(128, 128, 128, 0.85), rgba(0, 0, 0, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -423,6 +423,7 @@ body {
     margin-bottom: 8rem; }
   .card__price-only {
     font-size: 1.4rem;
+    color: grey;
     text-align: uppercase; }
   .card__price-value {
     font-size: 6rem;
@@ -435,10 +436,13 @@ body {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px; }
     .card__rear-image--real-estate {
-      height: 23rem;
+      height: 20rem;
       background-image: url(../images/sites/real-estate.JPG); }
+    .card__rear-image--digital-agency {
+      height: 20rem;
+      background-image: url(../images/sites/digital-agency.JPG); }
     .card__rear-image--gym-site {
-      height: 14rem;
+      height: 20rem;
       background-image: url(../images/sites/gym-site.JPG); }
   @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     .card {
@@ -990,7 +994,11 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
+  .section-projects .u-margin .heading-secondary {
+    padding-bottom: 10rem; }
 
 .section-about {
   position: relative;
   padding: 15rem 0; }
+  .section-about .u-margin .heading-secondary {
+    padding-bottom: 10rem; }
