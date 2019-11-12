@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
-import './LayoutStyle.css';
-import '../../fonts/Fonts.css'
+  import React, { Component } from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
+import '../LayoutStyle.css'
+import '../../../fonts/Fonts.css'
+
 
 
 

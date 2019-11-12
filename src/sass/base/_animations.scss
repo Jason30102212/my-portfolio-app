@@ -1,0 +1,212 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  90% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(225, 225, 225, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes rotatePuzzlePiece0 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translateX(-100px);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: -43.1rem;
+    top: 12rem;
+  }
+}
+
+@keyframes rotatePuzzlePiece1 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translateX(-100px);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: -37rem;
+    top: 1.5rem;
+  }
+}
+
+@keyframes rotatePuzzlePiece2 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate(100%, 100%);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: -20.5rem;
+    top: -0.2rem;
+  }
+}
+
+@keyframes rotatePuzzlePiece3 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate(100%, -100%);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: -10.7rem;
+    top: 1.4rem;
+  }
+}
+
+@keyframes rotatePuzzlePiece4 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate(-100%, 100%);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: 15.2rem;
+    top: 8.9rem;
+  }
+}
+
+@keyframes rotatePuzzlePiece5 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate(-100%, -100%);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: 0.6rem ;
+    top: 20.9rem;
+  }
+}
+
+@keyframes rotatePuzzlePiece6 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate(-100%, -100%);
+  }
+
+  80% {
+    transform: translateY(10rem);
+  }
+
+  90% {
+
+  }
+
+  100% {
+    opacity: 1;
+    left: 12.1rem ;
+    top: 24.1rem;
+  }
+}
