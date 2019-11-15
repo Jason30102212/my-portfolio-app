@@ -12,19 +12,17 @@ class Header extends Component {
   render () {
     return (
       <header className="header">
-
-        {/*
-        <div class="jumbotron jumbotron-background">
-          <div className="jumbotron-padding">
+        <div className="header__top-links">
+          <div className="header__top-link__left">
+              <div>Test</div>
           </div>
-          <h1 className="display-4 fahkwang-font text-white text-uppercase text-spread-20">Jason's Portfolio</h1>
-          <hr className="my-4 text-white" />
-          <p className="gloria-hallelujah-font text-white">Thanks for visiting. This is a showcase of the projects I am working on and the skills I am obtaining.</p>
-          <p className="lead">
-            <a className="btn btn-primary btn-lg m-5" href="#about-section" role="button">Learn more</a>
-          </p>
+          <div className="header__top-link__right">
+            <div className="icon icon__facebook"></div>
+            <div className="icon icon__twitter"></div>
+            <div className="icon icon__linkedin"></div>
+            <div className="icon icon__email"></div>
+          </div>
         </div>
-        */}
 
         <div className="header__text-box">
           <h1 className="heading-primary">

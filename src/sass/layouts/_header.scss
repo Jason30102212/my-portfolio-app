@@ -31,6 +31,30 @@
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   }
 
+  &__top-links {
+    height: 3rem;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 0 5rem;
+
+    &__left {
+      padding-left: 3rem;
+      display: flex;
+      flex-direction: row;
+
+      & div{
+        background-color: green;
+      }
+    }
+
+    &__right {
+      padding-right: 3rem;
+      display: flex;
+    }
+  }
+
   &__logo-box {
     position: absolute;
     top: 100px;
@@ -70,7 +94,7 @@
       position: absolute;
       left: -41rem;
       top: 12rem;
-      width: 33.5rem;
+      width: 32.6rem;
       height: auto;
       fill: green;
 
@@ -130,7 +154,7 @@
       position: absolute;
       left: -20.5rem;
       top: -0.2rem;
-      width: 15rem;
+      width: 14.7rem;
       height: auto;
       fill: red;
       transition: transform .2s;
@@ -161,7 +185,7 @@
       position: absolute;
       left: -10.7rem;
       top: 1.5rem;
-      width: 20.7rem;
+      width: 21.3rem;
       height: auto;
 
       animation-name: rotatePuzzlePiece3;
@@ -190,7 +214,7 @@
       position: absolute;
       left: 15.3rem;
       top: 9rem;
-      width: 16.3rem;
+      width: 15.7rem;
       height: auto;
       transform: rotateZ(0deg);
 
@@ -220,7 +244,7 @@
       position: absolute;
       left: 0.6rem ;
       top: 21.3rem;
-      width: 14.7rem;
+      width: 14.4rem;
       height: auto;
       transform: rotateZ(0deg);
 
@@ -256,7 +280,7 @@
       position: absolute;
       left: 0.6rem ;
       top: 41.3rem;
-      width: 19.5rem;
+      width: 18.95rem;
       height: auto;
       transform: rotateZ(0deg);
 
@@ -287,4 +311,29 @@
       }
     }
   }
+}
+
+.icon {
+
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin-right: 8px;
+  display: inline-block;
+  &__facebook {
+    background-image: url(../images/icons/icon-facebook.png);
+  }
+
+  &__twitter {
+    background-image: url(../images/icons/icon-twitter.png);
+  }
+
+  &__linkedin {
+    background-image: url(../images/icons/icon-linkedin.png);
+  }
+
+  &__email {
+    background-image: url(../images/icons/icon-email.png);
+  }
+
 }
