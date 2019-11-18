@@ -14,7 +14,7 @@ class Header extends Component {
       <header className="header">
         <div className="header__top-links">
           <div className="header__top-link__left">
-              <div>Test</div>
+              <div className="header__logo"></div>
           </div>
           <div className="header__top-link__right">
             <div className="icon icon__facebook"></div>
@@ -26,18 +26,18 @@ class Header extends Component {
 
         <div className="header__text-box">
           <h1 className="heading-primary">
-            <span className="heading-primary--main">Portfolio</span>
-            <span className="heading-primary--sub">Thanks for visiting. </span>
+            <span className="heading-primary--main">Jason's Portfolio</span>
+            <span className="heading-primary--sub">MERN app development</span>
           </h1>
         </div>
         <div className="header__puzzle-box">
-          <Puzzle0 className="header__puzzle-piece header__puzzle-piece--0 vector-shadow" />
-          <Puzzle1 className="header__puzzle-piece header__puzzle-piece--1 vector-shadow" />
-          <Puzzle2 className="header__puzzle-piece header__puzzle-piece--2 vector-shadow" />
-          <Puzzle3 className="header__puzzle-piece header__puzzle-piece--3 vector-shadow" />
-          <Puzzle4 className="header__puzzle-piece header__puzzle-piece--4 vector-shadow" />
-          <Puzzle5 className="header__puzzle-piece header__puzzle-piece--5 vector-shadow" />
-          <Puzzle6 className="header__puzzle-piece header__puzzle-piece--6 vector-shadow" />
+          <Puzzle0 className="header__puzzle-piece header__puzzle-piece--0 puzzle-shadow" />
+          <Puzzle1 className="header__puzzle-piece header__puzzle-piece--1 puzzle-shadow" />
+          <Puzzle2 className="header__puzzle-piece header__puzzle-piece--2 puzzle-shadow" />
+          <Puzzle3 className="header__puzzle-piece header__puzzle-piece--3 puzzle-shadow" />
+          <Puzzle4 className="header__puzzle-piece header__puzzle-piece--4 puzzle-shadow" />
+          <Puzzle5 className="header__puzzle-piece header__puzzle-piece--5 puzzle-shadow" />
+          <Puzzle6 className="header__puzzle-piece header__puzzle-piece--6 puzzle-shadow" />
         </div>
       </header>
     )

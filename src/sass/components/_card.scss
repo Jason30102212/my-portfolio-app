@@ -121,6 +121,10 @@
       width: 80%;
       margin: 0 auto;
 
+      @include respond(tab-port) {
+        padding-top: 8rem;
+      }
+
       li {
         text-align: center;
         font-size: 1.5rem;
@@ -141,6 +145,10 @@
     transform: translate(-50%, -50%);
     width: 90%;
     text-align: center;
+
+    @include respond(tab-port) {
+      padding-top: 3rem;
+    }
   }
 
   &__price-box {
@@ -153,6 +161,11 @@
     font-size: 1.4rem;
     color: grey;
     text-align: uppercase;
+
+
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 
   &__price-value {
@@ -172,18 +185,31 @@
       height: 20rem;
       background-image:
       url(../images/sites/real-estate.JPG);
+
+      @include respond(tab-port) {
+          display: none;
+      }
     }
 
     &--digital-agency {
       height: 20rem;
       background-image:
       url(../images/sites/digital-agency.JPG);
+
+
+      @include respond(tab-port) {
+        display: none;
+      }
     }
 
     &--gym-site {
       height: 20rem;
       background-image:
       url(../images/sites/gym-site.JPG);
+
+      @include respond(tab-port) {
+        display: none;
+      }
     }
   }
 

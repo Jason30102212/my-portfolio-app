@@ -9,6 +9,10 @@
   min-height: 34rem;
 
   @include respond(tab-port) {
+    min-height: 4rem;
+  }
+
+  @include respond(tab-port) {
     padding: 2rem;
   }
 

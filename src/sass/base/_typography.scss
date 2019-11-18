@@ -41,7 +41,8 @@ body {
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
 
-    @include respond(phone) {
+    @include respond(tab-port) {
+      padding: 5rem 0 3rem 0;
       letter-spacing: .5rem;
     }
   }
@@ -66,7 +67,7 @@ body {
 }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;

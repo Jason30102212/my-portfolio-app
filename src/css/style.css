@@ -67,9 +67,8 @@
   90% { }
   100% {
     opacity: 1;
-    left: -42.85rem;
-    top: 11.2rem;
-    z-index: 1; } }
+    left: -42.8rem;
+    top: 11.12rem; } }
 
 @keyframes rotatePuzzlePiece1 {
   0% {
@@ -81,8 +80,7 @@
   100% {
     opacity: 1;
     left: -37rem;
-    top: 1.5rem;
-    z-index: 1; } }
+    top: 1.5rem; } }
 
 @keyframes rotatePuzzlePiece2 {
   0% {
@@ -94,8 +92,7 @@
   100% {
     opacity: 1;
     left: -20.85rem;
-    top: -0.05rem;
-    z-index: 1; } }
+    top: -0.05rem; } }
 
 @keyframes rotatePuzzlePiece3 {
   0% {
@@ -107,8 +104,7 @@
   100% {
     opacity: 1;
     left: -12.1rem;
-    top: 1.4rem;
-    z-index: 1; } }
+    top: 1.4rem; } }
 
 @keyframes rotatePuzzlePiece4 {
   0% {
@@ -119,9 +115,8 @@
   90% { }
   100% {
     opacity: 1;
-    left: 14.15rem;
-    top: 8.7rem;
-    z-index: 1; } }
+    left: 14rem;
+    top: 8.7rem; } }
 
 @keyframes rotatePuzzlePiece5 {
   0% {
@@ -132,9 +127,8 @@
   90% { }
   100% {
     opacity: 1;
-    left: -0.3rem;
-    top: 20.2rem;
-    z-index: 1; } }
+    left: -0.35rem;
+    top: 20.2rem; } }
 
 @keyframes rotatePuzzlePiece6 {
   0% {
@@ -145,8 +139,8 @@
   90% { }
   100% {
     opacity: 1;
-    left: 10.95rem;
-    top: 23.35rem;
+    left: 10.8rem;
+    top: 23.25rem;
     z-index: 1; } }
 
 *,
@@ -219,8 +213,9 @@ body {
     animation-timing-function: ease-out;
     animation-delay: 1.5s;
     animation-fill-mode: forwards; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .heading-primary--sub {
+        padding: 5rem 0 3rem 0;
         letter-spacing: .5rem; } }
   .heading-primary--tag {
     position: relative;
@@ -238,7 +233,7 @@ body {
   animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal; }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -294,7 +289,8 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #777; }
+  color: #777;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
   .btn--white::after {
     background-color: #fff; }
 
@@ -411,6 +407,9 @@ body {
       list-style: none;
       width: 80%;
       margin: 0 auto; }
+      @media only screen and (max-width: 56.25em) {
+        .card__details ul {
+          padding-top: 8rem; } }
       .card__details ul li {
         text-align: center;
         font-size: 1.5rem;
@@ -424,6 +423,9 @@ body {
     transform: translate(-50%, -50%);
     width: 90%;
     text-align: center; }
+    @media only screen and (max-width: 56.25em) {
+      .card__cta {
+        padding-top: 3rem; } }
   .card__price-box {
     text-align: center;
     color: #fff;
@@ -432,6 +434,9 @@ body {
     font-size: 1.4rem;
     color: grey;
     text-align: uppercase; }
+    @media only screen and (max-width: 56.25em) {
+      .card__price-only {
+        display: none; } }
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
@@ -445,12 +450,21 @@ body {
     .card__rear-image--real-estate {
       height: 20rem;
       background-image: url(../images/sites/real-estate.JPG); }
+      @media only screen and (max-width: 56.25em) {
+        .card__rear-image--real-estate {
+          display: none; } }
     .card__rear-image--digital-agency {
       height: 20rem;
       background-image: url(../images/sites/digital-agency.JPG); }
+      @media only screen and (max-width: 56.25em) {
+        .card__rear-image--digital-agency {
+          display: none; } }
     .card__rear-image--gym-site {
       height: 20rem;
       background-image: url(../images/sites/gym-site.JPG); }
+      @media only screen and (max-width: 56.25em) {
+        .card__rear-image--gym-site {
+          display: none; } }
   @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     .card {
       height: auto;
@@ -489,6 +503,9 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .2s;
   min-height: 34rem; }
+  @media only screen and (max-width: 56.25em) {
+    .skillset-box {
+      min-height: 4rem; } }
   @media only screen and (max-width: 56.25em) {
     .skillset-box {
       padding: 2rem; } }
@@ -588,6 +605,12 @@ body {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+  .header__logo {
+    font-weight: 100;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0rem;
+    text-transform: uppercase; }
   .header__top-links {
     height: 3rem;
     width: 100vw;
@@ -623,6 +646,9 @@ body {
     left: 49%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media only screen and (max-width: 56.25em) {
+      .header__puzzle-box {
+        top: 35%; } }
   .header__puzzle-piece {
     position: absolute;
     color: white;
@@ -649,7 +675,7 @@ body {
       .header__puzzle-piece--0 g {
         fill: white; }
       .header__puzzle-piece--0 g:hover {
-        fill: blue; }
+        fill: white; }
     .header__puzzle-piece--1 {
       opacity: 0;
       position: absolute;
@@ -670,7 +696,9 @@ body {
       .header__puzzle-piece--1 g {
         fill: white; }
       .header__puzzle-piece--1 g:hover {
-        fill: blue; }
+        fill: white; }
+      .header__puzzle-piece--1.vector-shadow {
+        filter: drop-shadow(3px 4px 1px rgba(0, 0, 0, 0.7)); }
     .header__puzzle-piece--2 {
       opacity: 0;
       position: absolute;
@@ -692,7 +720,7 @@ body {
       .header__puzzle-piece--2 g {
         fill: white; }
       .header__puzzle-piece--2 g:hover {
-        fill: blue; }
+        fill: white; }
     .header__puzzle-piece--3 {
       opacity: 0;
       position: absolute;
@@ -712,7 +740,7 @@ body {
       .header__puzzle-piece--3 g {
         fill: white; }
       .header__puzzle-piece--3 g:hover {
-        fill: blue; }
+        fill: white; }
     .header__puzzle-piece--4 {
       opacity: 0;
       position: absolute;
@@ -733,7 +761,7 @@ body {
       .header__puzzle-piece--4 g {
         fill: white; }
       .header__puzzle-piece--4 g:hover {
-        fill: blue; }
+        fill: white; }
     .header__puzzle-piece--5 {
       opacity: 0;
       position: absolute;
@@ -756,9 +784,9 @@ body {
       .header__puzzle-piece--5 g {
         fill: white; }
       .header__puzzle-piece--5 g:hover {
-        fill: blue; }
+        fill: white; }
       .header__puzzle-piece--5:hover .header__puzzle-piece--5 g {
-        fill: blue; }
+        fill: white; }
     .header__puzzle-piece--6 {
       opacity: 0;
       position: absolute;
@@ -781,7 +809,7 @@ body {
       .header__puzzle-piece--6 g {
         fill: white; }
       .header__puzzle-piece--6 g:hover {
-        fill: blue; }
+        fill: white; }
       .header__puzzle-piece--6:hover .header__puzzle-piece--6 g {
         fill: blue; }
 
@@ -799,6 +827,10 @@ body {
     background-image: url(../images/icons/icon-linkedin.png); }
   .icon__email {
     background-image: url(../images/icons/icon-email.png); }
+
+.puzzle-shadow:hover {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7)); }
 
 .navigation__checkbox {
   display: none; }
@@ -969,7 +1001,7 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 10rem 0;
+  padding: 2rem 0;
   font-size: 1.4rem;
   color: #f7f7f7; }
   @media only screen and (max-width: 56.25em) {
@@ -977,7 +1009,7 @@ body {
       padding: 8rem 0; } }
   .footer__logo-box {
     text-align: center;
-    margin-bottom: 8rem; }
+    margin-bottom: 2rem; }
     @media only screen and (max-width: 56.25em) {
       .footer__logo-box {
         margin-bottom: 6rem; } }
@@ -1030,7 +1062,7 @@ body {
 
 .section-projects {
   background-color: #f7f7f7;
-  padding: 25rem 0 15rem 0;
+  padding: 20rem 0 15rem 0;
   margin-top: -10rem; }
   .section-projects .u-margin .heading-secondary {
     padding-bottom: 10rem; }
@@ -1038,5 +1070,8 @@ body {
 .section-about {
   position: relative;
   padding: 15rem 0; }
+  @media only screen and (max-width: 56.25em) {
+    .section-about .row {
+      max-width: 60rem; } }
   .section-about .u-margin .heading-secondary {
     padding-bottom: 10rem; }
