@@ -4,7 +4,7 @@ class Skillset extends Component {
 
   render() {
     return (
-      <section className="section-skillset">
+      <section className="section-skillset" id="skillset-section">
         <div className="row">
           <div className="col-1-of-4">
             <div className="skillset-box">

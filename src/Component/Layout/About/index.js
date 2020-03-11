@@ -8,7 +8,7 @@ class About extends Component {
 
   render() {
     return(
-      <div className="section-about">
+      <div className="section-about" id="about-section">
         <div className="u-center-text u-margin">
           <h2 className="heading-secondary">
             About Section
@@ -48,7 +48,7 @@ class About extends Component {
                 Current Goals
               </h3>
               <p>
-                Currently developing the skills to produce applications around the React framework.
+                Currently developing the skills to produce applications around the React framework and the MERN stack.
               </p>
             </div>
           </div>

@@ -1,4 +1,21 @@
 .navigation {
+  position: sticky;
+  top: 0rem;
+  z-index: 100;
+
+  @include respond(tab-port) {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  @include respond(phone) {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+  }
+
   &__checkbox {
     display: none;
   }
@@ -163,4 +180,8 @@
     top: 0;
     transform: rotate(-135deg);
   }
+}
+
+.nav-item {
+  margin: 0 .8rem;
 }
