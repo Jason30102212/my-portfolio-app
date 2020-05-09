@@ -4,7 +4,7 @@ import '../Layout.css'
 class Header extends Component {
   render () {
     return (
-      <header className="header">
+      <header className="header" id="home-section">
         <div className="header__top-links">
           <div className="header__top-link__left">
             <div className="header__logo"></div>

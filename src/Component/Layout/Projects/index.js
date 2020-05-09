@@ -61,7 +61,7 @@ class Projects extends Component {
               rearLarge=""
               rearSmallTwo=""
               buttonText="Go to site"
-              link="https://gym-site-one.herokuapp.com/"
+              link="https://true-hit.herokuapp.com/"
             />
           </div>
         </div>
